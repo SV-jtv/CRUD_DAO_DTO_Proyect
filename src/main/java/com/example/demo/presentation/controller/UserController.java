@@ -14,7 +14,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private IUserS+ervice userService;
+    private IUserService userService;
 
     // FindAll
     @GetMapping("/find")
